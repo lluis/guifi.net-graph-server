@@ -3,7 +3,7 @@ class guifi_graph_server {
   package {
     "snpservices":
       ensure => present,
-      require => File["/etc/apt/apt.conf.d/99unauth"];
+      require => File["/etc/apt/sources.list.d/guifi.list"];
   }
   file {
     "/etc/snpservices/config.php":
