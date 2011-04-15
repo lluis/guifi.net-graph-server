@@ -1,5 +1,7 @@
 Instal·la el paquet de guifi snpservices
+
 Inclou el mòdul package_manager
+
 Actualment només per **Debian**
 
 Instal·lació
