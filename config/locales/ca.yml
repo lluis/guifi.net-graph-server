@@ -1,0 +1,9 @@
+ca:
+  field_snpgraphserverid: "SNP Graph Server Id"
+  field_rootzone: "Root Zone"
+  field_snpdataserverurl: "SNP Data Server URL"
+  field_mrtgconfigsource: "Mrtg csv data"
+  field_cnmlsource: "CNML query"
+  field_rddbpath: "rddb path"
+  field_rddimgpath: "rddimg path"
+  field_rddtoolversion: "rddtool version"

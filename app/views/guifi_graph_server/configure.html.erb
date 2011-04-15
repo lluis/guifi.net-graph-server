@@ -1,0 +1,23 @@
+<%= klass_menu "GuifiGraphServer" %>
+
+<% labelled_tabular_form_for :guifi_graph_server, @klass, :url=>{:action=>'configure'} do |f| -%>
+
+  <%= f.error_messages %>
+
+    <p><%= f.text_field :snpgraphserverid %></p>
+    <p>--- a partir d'aquí no hauría de ser necessari tocar res ---</p>
+    <p><%= f.text_field :rootzone %></p>
+    <p><%= f.text_field :snpdataserverurl %></p>
+    <p><%= f.text_field :mrtgconfigsource %></p>
+    <p><%= f.text_field :cnmlsource %></p>
+    <p><%= f.text_field :rrddbpath %></p>
+    <p><%= f.text_field :rrdimgpath %></p>
+    <p><%= f.text_field :rrdtoolversion %></p>
+
+  <p><%= submit_tag("Save")%></p>
+
+<% end -%>
+
+<hr />
+
+<p><%= link_to "Back", :controller => 'klass', :action => 'list', :id => @node %></p>
